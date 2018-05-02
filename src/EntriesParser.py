@@ -1,16 +1,17 @@
 # coding=utf-8
 import csv
-import os
-from lxml import etree
 import wikitextparser as wtp
 
+import IConfig
 
-class ParseWiktionary:
-    dump_path = os.path.abspath('dump/dewiktionary-pages-meta-current.xml')
-    dump_namespace = 'http://www.mediawiki.org/xml/export-0.10/'
+
+class EntriesParser:
+    def __init__(self, config: IConfig, entries: dict):
+        self.config = config().get_config()
+        self.entries = entries
 
     def get_field_name(self, field_name):
-        return '{%s}%s' % (self.dump_namespace, field_name)
+        return '{%s}%s' % (self.config.get('general').get('dump_namespace'), field_name)
 
     @staticmethod
     def extract_element_template(entry, template_name):
@@ -45,7 +46,7 @@ class ParseWiktionary:
 
             writer.writeheader()
 
-            for event, element in etree.iterparse(self.dump_path, events=('end',), tag=self.get_field_name('page')):
+            for event, element in etree.iterparse(self.config.general.dump_path, events=('end',), tag=self.get_field_name('page')):
                 parsed_element = self.parse_element(element)
                 if parsed_element is not None:
                     writer.writerow(parsed_element)

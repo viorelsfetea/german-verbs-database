@@ -1,4 +1,4 @@
-from parser.ParseWiktionary import ParseWiktionary
+from src.EntriesParser import EntriesParser
 
-parser = ParseWiktionary()
+parser = EntriesParser()
 parser.parse_pages()
