@@ -1,0 +1,34 @@
+<page>
+    <title>lieben</title>
+    <ns>0</ns>
+    <id>784</id>
+    <revision>
+        <id>6317594</id>
+        <parentid>6315504</parentid>
+        <timestamp>2018-03-28T09:05:12Z</timestamp>
+        <contributor>
+            <username>Alexander Gamauf</username>
+            <id>7352</id>
+        </contributor>
+        <minor/>
+        <comment>„innig geliebt“ → [[herzgeliebt]]</comment>
+        <model>wikitext</model>
+        <format>text/x-wiki</format>
+        <text xml:space="preserve">== lieben ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=liebe
+|Präsens_du=liebst
+|Präsens_er, sie, es=liebt
+|Präteritum_ich=liebte
+|Partizip II=geliebt
+|Konjunktiv II_ich=liebte
+|Imperativ Singular=liebe
+|Imperativ Plural=liebt
+|Hilfsverb=haben
+}}
+  </text>
+        <sha1>0s6p6vk13k0burhvl5hpn6soa74313q</sha1>
+    </revision>
+</page>

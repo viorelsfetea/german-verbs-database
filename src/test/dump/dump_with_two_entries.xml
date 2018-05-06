@@ -1,0 +1,8 @@
+<sample>
+    <xml>
+        some nested value
+    </xml>
+    <xml>
+        another nested value
+    </xml>
+</sample>

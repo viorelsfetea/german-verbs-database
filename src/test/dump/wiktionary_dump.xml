@@ -1,0 +1,191 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd"
+           version="0.10" xml:lang="de">
+    <siteinfo>
+        <sitename>Wiktionary</sitename>
+        <dbname>dewiktionary</dbname>
+        <base>https://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+        <generator>MediaWiki 1.32.0-wmf.1</generator>
+        <case>case-sensitive</case>
+        <namespaces>
+            <namespace key="-2" case="case-sensitive">Medium</namespace>
+            <namespace key="-1" case="first-letter">Spezial</namespace>
+            <namespace key="0" case="case-sensitive"/>
+            <namespace key="1" case="case-sensitive">Diskussion</namespace>
+            <namespace key="2" case="first-letter">Benutzer</namespace>
+            <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+            <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+            <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+            <namespace key="6" case="case-sensitive">Datei</namespace>
+            <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+            <namespace key="8" case="first-letter">MediaWiki</namespace>
+            <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+            <namespace key="10" case="case-sensitive">Vorlage</namespace>
+            <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+            <namespace key="12" case="case-sensitive">Hilfe</namespace>
+            <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+            <namespace key="14" case="case-sensitive">Kategorie</namespace>
+            <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+            <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+            <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+            <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+            <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+            <namespace key="106" case="case-sensitive">Reim</namespace>
+            <namespace key="107" case="case-sensitive">Reim Diskussion</namespace>
+            <namespace key="108" case="case-sensitive">Flexion</namespace>
+            <namespace key="109" case="case-sensitive">Flexion Diskussion</namespace>
+            <namespace key="828" case="case-sensitive">Modul</namespace>
+            <namespace key="829" case="case-sensitive">Modul Diskussion</namespace>
+            <namespace key="2300" case="case-sensitive">Gadget</namespace>
+            <namespace key="2301" case="case-sensitive">Gadget Diskussion</namespace>
+            <namespace key="2302" case="case-sensitive">Gadget-Definition</namespace>
+            <namespace key="2303" case="case-sensitive">Gadget-Definition Diskussion</namespace>
+        </namespaces>
+    </siteinfo>
+    <page>
+        <title>lieben</title>
+        <ns>0</ns>
+        <id>784</id>
+        <revision>
+            <id>6317594</id>
+            <parentid>6315504</parentid>
+            <timestamp>2018-03-28T09:05:12Z</timestamp>
+            <contributor>
+                <username>Alexander Gamauf</username>
+                <id>7352</id>
+            </contributor>
+            <minor/>
+            <comment>„innig geliebt“ → [[herzgeliebt]]</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">== lieben ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=liebe
+|Präsens_du=liebst
+|Präsens_er, sie, es=liebt
+|Präteritum_ich=liebte
+|Partizip II=geliebt
+|Konjunktiv II_ich=liebte
+|Imperativ Singular=liebe
+|Imperativ Plural=liebt
+|Hilfsverb=haben
+}}
+      </text>
+            <sha1>0s6p6vk13k0burhvl5hpn6soa74313q</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>MediaWiki:Linktrail</title>
+        <ns>8</ns>
+        <id>6</id>
+        <revision>
+            <id>65608</id>
+            <parentid>2297</parentid>
+            <timestamp>2004-06-05T22:14:21Z</timestamp>
+            <contributor>
+                <username>SteffenB</username>
+                <id>12</id>
+            </contributor>
+            <comment>Sonderzeichenreparatur;</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">/^([ä|ö|ü|ß|a-z]+)(.*)$/sD</text>
+            <sha1>lvzebpgyfmspl8mjm8nzz40amu8o683</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>klieben</title>
+        <ns>0</ns>
+        <id>1050</id>
+        <revision>
+            <id>6081543</id>
+            <parentid>5490355</parentid>
+            <timestamp>2017-07-01T01:53:01Z</timestamp>
+            <contributor>
+                <username>UT-Bot</username>
+                <id>112805</id>
+            </contributor>
+            <minor/>
+            <comment>Bot: Ersetze Übersetzungen mit {{Übersetzungen}}</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">== klieben ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=kliebe
+|Präsens_du=kliebst
+|Präsens_er, sie, es=kliebt
+|Präteritum_ich=klob
+|Präteritum_ich*=kliebte
+|Partizip II=gekloben
+|Partizip II*=gekliebt
+|Konjunktiv II_ich=klöbe
+|Konjunktiv II_ich*=kliebte
+|Imperativ Singular=kliebe
+|Imperativ Plural=kliebt
+|Hilfsverb=haben
+}}
+
+{{Anmerkungen|Aussprache}}
+:Laut dem »''Variantenwörterbuch des Deutschen''« wird das [[Verb]] in [[Österreich]] stets und in [[Südostdeutschland]] zumeist [[diphthongisch]] ausgesprochen.&lt;ref&gt;{{Lit-Ammon: Variantenwörterbuch|A=1}}, Seite 414&lt;/ref&gt;
+
+{{Worttrennung}}
+:klie·ben, {{Prät.}} klob, klieb·te, {{Part.}} ge·klo·ben, ge·kliebt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈkliːbn̩}}, {{Lautschrift|ˈkliːbm̩}}, {{Prät.}} {{Lautschrift|kloːp}}, {{Lautschrift|ˈkliːptə}}, {{Part.}} {{Lautschrift|ɡəˈkloːbn̩}}, {{Lautschrift|ɡəˈkloːbm̩}}, {{Lautschrift|ɡəˈkliːpt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|iːbn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''[[transitiv]]; [[österreichisch]], [[südostdeutsch]] [[umgangssprachlich]]:'' (Holz) spalten, der Länge nach zerteilen
+
+{{Herkunft}}
+:seit dem 9. Jahrhundert bezeugt; [[Erbwort]] aus dem [[Mittelhochdeutsch]]en ''{{Ü|gmh|klieben}},'' das den [[althochdeutsch]]en Formen ''{{Ü|goh|klioban}}'' und ''{{Ü|goh|chliuban}}'' entstammt; dieses entspringt der (nicht belegbaren aber rekonstruierten) [[germanisch]]en Form ''*kleub-a-'' „[[spalten]]“, zu dem auch ''[[Kluft]]'' gehört; außerdem nachweisbar im [[Altnordisch]]en ''{{Ü|non|kljúfa}} ,'' im [[Altsächsisch]]en ''klioban,'' im [[Altenglisch]]en ''{{Ü|ang|clēofan}}'' sowie im [[Mittelniederdeutsch]]en ''{{Ü|gml|kluven}}''; außergermanisch vergleicht sich unter der (nicht belegbaren aber rekonsrtruierten) [[indogermanisch]]en Form ''*gleubʰ-'' „[[spalten]], [[trennen]]“ das [[lateinisch]]e [[Verb]] ''{{Ü|la|glubere|glūbere}}'' „[[entrinden]], [[schälen]], [[ein#Artikel|ein]] [[Tier]] [[abdecken]]“ sowie das [[griechisch]]e [[Verb]] ''{{Üt|el|γλύφω|glyphō}}'' „[[ich]] [[meißle aus]], [[graviere]]“&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Seite 496&lt;/ref&gt;&lt;ref&gt;{{Lit-Duden: Universalwörterbuch|A=6}}, Seite 964&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[spalten]]
+
+{{Gegenwörter}}
+:[1] [[kleben]], [[leimen]], [[zusammenkleben]], [[zusammenleimen]]
+
+{{Oberbegriffe}}
+:[1] [[teilen]], [[zerteilen]]
+
+{{Beispiele}}
+:[1] „Als es aber hieß, der Leibhaftige, den der Nachtwächter gesehen, hätte ausgeschaut wie ein Stier, der auf den Hinterfüßen steht, so großmächtig und schwarz, und im Garten der Häuslschusterin, die man doch kennt als eine ›solchene‹, hätte er Holz ''gekloben'' – und als der Nachbar der Altenöderin unter den heiligsten Eiden beteuerte, daß er am Abend beim Schuppen der Häuslschusterin kein Spänlein Holz, am Morgen aber eine schön gespaltene Klafter gesehen, und daß er ganz deutlich um Mitternacht das unheimliche Sägen und Klopfen gehört hätte, da wurde auch jener einzige, bei dem der Verstand gesprochen hatte, ein wenig nachdenklich.“&lt;ref&gt;{{DiB-Projekt Gutenberg-DE | Online=http://gutenberg.spiegel.de/buch/2125/4 | Autor=Ludwig Ganghofer | Titel=Der Dorfapostel | Kapitel=Viertes Kapitel }}&lt;/ref&gt;
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|klief}}, {{Ü|af|kloof}}
+*{{en}}: [1] {{Ü|en|chop}}, {{Ü|en|cleave}}
+*{{fr}}: [1] {{Ü|fr|fendre}}
+*{{is}}: [1] {{Ü|is|kljúfa}}
+*{{nl}}: [1] {{Ü|nl|klieven}}, {{Ü|nl|kloven}}
+*{{dsb}}: [1] {{Ü|dsb|kłojś}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|rozłupywać}}, (''[[perfektiv]]:'' {{Ü|pl|rozłupać}})
+*{{pt}}: [1] {{Ü|pt|fender}}, {{Ü|pt|rachar}}
+*{{ru}}: [1] {{Üt|ru|колоть|kolót’}}
+*{{sv}}: [1] {{Ü|sv|klyva}}
+*{{es}}: [1] {{Ü|es|hender}}, {{Ü|es|partir}}, {{Ü|es|rajar}}
+}}
+
+{{Referenzen}}
+:[1] {{Lit-Duden: Universalwörterbuch|A=6}}, Seite 964
+:[1] {{Lit-Ammon: Variantenwörterbuch|A=1}}, Seite 414
+:[1] {{Ref-Grimm|klieben}}
+:[1] {{Ref-DWDS|klieben}}
+:[1] {{Ref-UniLeipzig|klieben}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[blieben]], [[klauben]], [[kleben]], [[kleiben]], [[kleiden]], [[klieren]], [[lieben]]</text>
+            <sha1>hoil8jdeazd4uzw3s5vrqdt2zpvz300</sha1>
+        </revision>
+    </page>
+</mediawiki>
