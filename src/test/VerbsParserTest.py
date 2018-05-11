@@ -1,6 +1,5 @@
 import unittest
 from lxml import etree
-from helpers.FakeVerbsConfig import FakeVerbsConfig
 from helpers.FakeLogger import FakeLogger
 from VerbsParser import VerbsParser
 
@@ -9,8 +8,7 @@ class VerbsParserTest(unittest.TestCase):
     def test_parse_entry(self):
         test_entry = etree.ElementTree().parse('dump/wiktionary_entry.xml')
 
-        FakeVerbsConfig.dump_namespace = None
-        parser = VerbsParser(FakeVerbsConfig, FakeLogger)
+        parser = VerbsParser(FakeLogger)
 
         result = parser.parse_entry(test_entry)
 
@@ -22,7 +20,7 @@ class VerbsParserTest(unittest.TestCase):
         )
 
     def test_parse_entries(self):
-        parser = VerbsParser(FakeVerbsConfig, FakeLogger)
+        parser = VerbsParser(FakeLogger)
         test_entries = []
 
         for event, element in etree.iterparse('dump/wiktionary_dump.xml', events=('end',), tag='{http://www.mediawiki.org/xml/export-0.10/}page'):
@@ -48,7 +46,7 @@ class VerbsParserTest(unittest.TestCase):
         )
 
     def test_parse_entries_no_entries(self):
-        parser = VerbsParser(FakeVerbsConfig, FakeLogger)
+        parser = VerbsParser(FakeLogger)
         test_entries = []
 
         result = parser.parse_entries(test_entries)
@@ -56,7 +54,7 @@ class VerbsParserTest(unittest.TestCase):
         self.assertEqual(0, len(result))
 
     def test_parse_entries_no_valid_entries(self):
-        parser = VerbsParser(FakeVerbsConfig, FakeLogger)
+        parser = VerbsParser(FakeLogger)
         test_entries = [etree.ElementTree().parse('dump/simple_dump.xml')]
 
         result = parser.parse_entries(test_entries)

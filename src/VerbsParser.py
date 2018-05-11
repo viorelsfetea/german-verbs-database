@@ -1,8 +1,7 @@
 # coding=utf-8
 import wikitextparser
 
-import IConfig
-import ILogger
+from src.ILogger import ILogger
 
 
 class VerbsParser:
@@ -10,8 +9,7 @@ class VerbsParser:
     conjugations_template_name = 'Deutsch Verb Übersicht'
     infinitive_form_name = 'Infinitive'
 
-    def __init__(self, config: IConfig, logger: ILogger):
-        self.config = config().get_config()
+    def __init__(self, logger: ILogger):
         self.logger = logger()
 
     def parse_entries(self, entries):

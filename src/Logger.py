@@ -1,4 +1,4 @@
-from ILogger import ILogger
+from src.ILogger import ILogger
 import logging
 
 
